@@ -1,0 +1,25 @@
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Year</th>
+        <th>Img</th>
+        <th>Count</th>
+        <th>Price</th>
+    </tr>
+    {{#each card.card}}
+    <tr>
+        <td>{{name}}</td>
+        <td>{{year}}</td>
+        <td>{{img}}</td>
+        <td>{{count}}</td>
+        <td>{{price}}</td>
+    </tr>
+    {{/each}}
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Total: {{card.price}}</td>
+    </tr>
+</table>
