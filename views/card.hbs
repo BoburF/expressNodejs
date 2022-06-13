@@ -12,14 +12,14 @@
         <td>{{year}}</td>
         <td>{{img}}</td>
         <td>{{count}}</td>
-        <td>{{price}}</td>
+        <td class="price">{{price}}</td>
     </tr>
     {{/each}}
     <tr>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td>Total: {{card.price}}</td>
+        <td>Total count: {{card.count}}</td>
+        <td>Total price: <span class="price">{{card.price}}</span></td>
     </tr>
 </table>
